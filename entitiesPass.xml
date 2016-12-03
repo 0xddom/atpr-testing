@@ -3,6 +3,11 @@
 
 <wi num="0" entity="PERS">Alvaro</wi> <wi num="1" entity="O">se</wi> <wi num="2" entity="O">olvido</wi> <wi num="3" entity="O">muchas</wi> <wi num="4" entity="O">cosas</wi> <wi num="5" entity="O">en</wi> <wi num="6" entity="O">su</wi> <wi num="7" entity="O">casa</wi> <wi num="8" entity="O">de</wi> <wi num="9" entity="LUG">Torrejón</wi><wi num="10" entity="O">.</wi>
 
+<wi num="0" entity="O">Compramos</wi> <wi num="1" entity="O">un</wi> <wi num="2" entity="PERS">Kaláshnikov</wi><wi num="3" entity="O">,</wi> <wi num="4" entity="O">AK-47</wi> <wi num="5" entity="O">,</wi><wi num="6" entity="O">en</wi> <wi num="7" entity="OTROS">León</wi><wi num="8" entity="O">.</wi> 
+
+<wi num="0" entity="O">En</wi> <wi num="1" entity="LUG">León</wi> <wi num="2" entity="O">competimos</wi><wi num="3" entity="O">.</wi>
+
+
 <wi num="0" entity="O">carlos</wi><wi num="1" entity="O">;</wi><wi num="2" entity="O">juan</wi><wi num="3" entity="O">;</wi><wi num="4" entity="O">alvaro</wi><wi num="5" entity="O">;</wi><wi num="6" entity="O">dani</wi>
 
 <wi num="0" entity="O">Fui</wi> <wi num="1" entity="O">a</wi> <wi num="2" entity="O">la</wi> <wi num="3" entity="ORG">Cybercamp</wi> <wi num="4" entity="ORG">2016</wi> <wi num="5" entity="O">en</wi> <wi num="6" entity="OTROS">León</wi><wi num="7" entity="O">.</wi> <wi num="0" entity="O">El</wi> <wi num="1" entity="O">hackathon</wi> <wi num="2" entity="O">fue</wi> <wi num="3" entity="O">complicado</wi> <wi num="4" entity="O">y</wi> <wi num="5" entity="O">competitivo</wi><wi num="6" entity="O">.</wi>
