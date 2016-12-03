@@ -2,7 +2,7 @@
 #STANFORD Libraries folder
 export STANFORD_HOME=Stanford/
 
-mono ATPR/ATPR.exe -c entities -i Texts/ -o entities.xml 
+mono ATPR/ATPR.exe -c entities -i Texts/ -o entities.xml > entitiesResult.txt
 
 entitiesTest=$(diff entities.xml entitiesPass.xml  | wc -l)
 
@@ -14,7 +14,7 @@ else
 	echo $entitiesTest
 fi
 
-mono ATPR/ATPR.exe -c dictionary -i Texts/ -o dic.csv 
+mono ATPR/ATPR.exe -c dictionary -i Texts/ -o dic.csv > dictionaryResult.txt
 
 dictionary=$(diff dic.csv dicPass.csv  | wc -l)
 
@@ -26,7 +26,7 @@ else
 	echo $dictionary
 fi
 
-mono ATPR/ATPR.exe -c match -i Texts/ -d dic.csv -o matchResults.csv 
+mono ATPR/ATPR.exe -c match -i Texts/ -d dic.csv -o matchResults.csv > matchResult.txt
 
 match=$(diff matchResults.csv matchResultsPass.csv  | wc -l)
 
