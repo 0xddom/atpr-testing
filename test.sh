@@ -26,7 +26,7 @@ else
 	echo $dictionary
 fi
 
-mono ATPR/ATPR.exe -c match -i Texts/ -d dic.csv -o matchResults.csv > matchResult.txt
+mono ATPR/ATPR.exe -c match -i Texts/ -d dicts/ -o matchResults.csv > matchResult.txt
 
 match=$(diff matchResults.csv matchResultsPass.csv  | wc -l)
 

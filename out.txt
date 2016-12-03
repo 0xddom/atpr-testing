@@ -1,0 +1,72 @@
+ICSharpCode.SharpZipLib.Zip.ZipException: Wrong Local header signature: 0xE0FFD8FF
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x000a0] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/failDoc.docx.
+ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte () [0x00022] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeShort () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x00021] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/test.docx.
+[32mEntities Test Passed[0m
+ICSharpCode.SharpZipLib.Zip.ZipException: Wrong Local header signature: 0xE0FFD8FF
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x000a0] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/failDoc.docx.
+ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte () [0x00022] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeShort () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x00021] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/test.docx.
+[32mDictionary Test Passed[0m
+ICSharpCode.SharpZipLib.Zip.ZipException: Wrong Local header signature: 0xE0FFD8FF
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x000a0] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/failDoc.docx.
+ICSharpCode.SharpZipLib.Zip.ZipException: EOF in header
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeByte () [0x00022] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeShort () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.Compression.Streams.InflaterInputBuffer.ReadLeInt () [0x00000] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at ICSharpCode.SharpZipLib.Zip.ZipInputStream.GetNextEntry () [0x00021] in <8e8fa28d216a43ec8dcb2258d1f7bf00>:0 
+  at (wrapper remoting-invoke-with-check) ICSharpCode.SharpZipLib.Zip.ZipInputStream:GetNextEntry ()
+  at NPOI.OpenXml4Net.Util.ZipInputStreamZipEntrySource..ctor (ICSharpCode.SharpZipLib.Zip.ZipInputStream inp) [0x00015] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.ZipPackage..ctor (System.IO.Stream in1, NPOI.OpenXml4Net.OPC.PackageAccess access) [0x0000e] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.OpenXml4Net.OPC.OPCPackage.Open (System.IO.Stream in1) [0x00000] in <2e421ec44d724b2abc98dbfef763e2c4>:0 
+  at NPOI.Util.PackageHelper.Open (System.IO.Stream is1) [0x00000] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at NPOI.XWPF.UserModel.XWPFDocument..ctor (System.IO.Stream is1) [0x00088] in <6fbe91dc84b44496b34ede0738d6e53f>:0 
+  at Toxy.Parsers.Word2007DocumentParser.Parse () [0x000b1] in <8e0d1ac81dbd4db0acee75b9f5c141af>:0 
+  at ATPR.Utils.FilesUtils.FileToText (System.String filePath) [0x00066] in <e3dac6b5f76348d2b18a3a590c2d9d3e>:0  Exception caught error with Texts/test.docx.
+[32mMatch Test Passed[0m
